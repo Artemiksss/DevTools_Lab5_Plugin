@@ -29,7 +29,7 @@ public class New_pr extends AnAction {
             String url = String.format("https://yandex.ru/search/?text=%s&search_source=dzen_desktop_safe&lr=2", Highlighted);
             BrowserUtil.browse(url);
         } else {
-            Messages.showMessageDialog("You have not highlighted the text.", "Tweet Action", Messages.getInformationIcon());
+            Messages.showMessageDialog("You have not highlighted the text.", "Search Action", Messages.getInformationIcon());
         }
     }
 
